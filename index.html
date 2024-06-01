@@ -52,6 +52,32 @@
             </center>
 
         </div>
+<div class="x1">
+            <p class="text">en çok sevdiğin lakap </p>
+
+            <center>
+               <input type="password" placeholder="BIG LETTER ONLY" id="tutorial">
+               <button onclick="protectpasscode()">CHECK</button>
+               <script>
+                  function protectpasscode() {
+                     const result = document.getElementById("tutorial").value;
+                     let passcode = "İROŞ";
+                     let space = '';
+                     if (result == space) {
+                        alert("Type passcode")
+                     } else {
+                        if (result == passcode) {
+                          window.location.assign("https://ahmad199617.github.io/PASS2/");
+                        } else {
+                           alert("Incorrect Passcode");
+                           location.reload();
+                        }
+                     }
+                  }
+               </script>
+            </center>
+
+        </div>
           </main>
     </body>
 </html>
