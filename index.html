@@ -26,25 +26,26 @@
             <!-- <h1 class="h2x">HAPPY BIRTHDAY</h1> -->
             <!-- <h1 class="h1x">TO THZ BAST ONE I KNOW IN MY LIFE HAPPY BIRTHDAY</h1> -->
 
-            <div class="xx">
+            <div class="xx" id="1">
             <p class="text">en çok sevdiğin lakap </p>
 
             <center>
-               <input type="password" placeholder="BIG LETTER ONLY" id="tutorial">
-               <button onclick="protectpasscode()">CHECK</button>
+               <input type="password" placeholder="BIG LETTER ONLY" id="1Q">
+               <button onclick="protectpasscode1()">CHECK</button>
                <script>
-                  function protectpasscode() {
-                     const result = document.getElementById("tutorial").value;
-                     let passcode = "İROŞ";
+                  function protectpasscode1() {
+                     const result = document.getElementById("1Q").value;
+                     let passcode1 = "İROŞ";
                      let space = '';
                      if (result == space) {
                         alert("Type passcode")
                      } else {
-                        if (result == passcode) {
-                          window.location.assign("https://ahmad199617.github.io/PASS2/");
+                        if (result == passcode1) {
+                           document.getElementById("1").style.visibility = "hidden";
+                           document.getElementById("2").style.visibility = "visible";
                         } else {
                            alert("Incorrect Passcode");
-                           location.reload();
+
                         }
                      }
                   }
@@ -52,6 +53,121 @@
             </center>
 
         </div>
+        <div class="xx" id="2" style="visibility: hidden;" >
+         <p class="text">yaparsa.............yapar </p>
+
+         <center>
+            <input type="password" placeholder="BIG LETTER ONLY" id="2Q">
+            <button onclick="protectpasscode2()">CHECK</button>
+            <script>
+               function protectpasscode2() {
+                  const result = document.getElementById("2Q").value;
+                  let passcode2 = "İREM";
+                  let space = '';
+                  if (result == space) {
+                     alert("Type passcode")
+                  } else {
+                     if (result == passcode2) {
+                           document.getElementById("2").style.visibility = "hidden";
+                           document.getElementById("3").style.visibility = "visible";
+                     } else {
+                        alert("Incorrect Passcode");
+
+                     }
+                  }
+               }
+            </script>
+         </center>
+
+     </div>
+
+     <div class="xx" id="3" style="visibility: hidden;" >
+      <p class="text">benim hocam</p>
+
+      <center>
+         <input type="password" placeholder="BIG LETTER ONLY" id="3Q">
+         <button onclick="protectpasscode3()">CHECK</button>
+         <script>
+            function protectpasscode3() {
+               const result = document.getElementById("3Q").value;
+               let passcode3 = "İREM";
+               let space = '';
+               if (result == space) {
+                  alert("Type passcode")
+               } else {
+                  if (result == passcode3) {
+                     document.getElementById("3").style.visibility = "hidden";
+                     document.getElementById("4").style.visibility = "visible";
+                  } else {
+                     alert("Incorrect Passcode");
+
+                  }
+               }
+            }
+         </script>
+      </center>
+
+  </div>
+
+
+  <div class="xx" id="4" style="visibility: hidden;" >
+   <p class="text">en sevdiği hareket</p>
+
+   <center>
+      <input type="password" placeholder="BIG LETTER ONLY" id="4Q">
+      <button onclick="protectpasscode4()">CHECK</button>
+      <script>
+         function protectpasscode4() {
+            const result = document.getElementById("4Q").value;
+            let passcode4 = "NAH";
+            let space = '';
+            if (result == space) {
+               alert("Type passcode")
+            } else {
+               if (result == passcode4) {
+                  document.getElementById("4").style.visibility = "hidden";
+                  document.getElementById("5").style.visibility = "visible";
+               } else {
+                  alert("Incorrect Passcode");
+
+               }
+            }
+         }
+      </script>
+   </center>
+
+</div>
+
+  <div class="xx" id="5" style="visibility: hidden;" >
+   <p class="text">İrem Karadeniz 1</p>
+
+   <center>
+      <input type="password" placeholder="BIG LETTER ONLY" id="5Q">
+      <button onclick="protectpasscode5()">CHECK</button>
+      <script>
+         function protectpasscode5() {
+            const result = document.getElementById("5Q").value;
+            let passcode5 = "MARKA";
+            let space = '';
+            if (result == space) {
+               alert("Type passcode")
+            } else {
+               if (result == passcode5) {
+                 window.location.assign("https://ahmad199617.github.io/IROS/");
+               } else {
+                  alert("Incorrect Passcode");
+
+               }
+            }
+         }
+      </script>
+   </center>
+
+</div>
+
+
+
+
           </main>
     </body>
 </html>

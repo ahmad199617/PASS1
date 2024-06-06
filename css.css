@@ -18,19 +18,11 @@
     rgba(0,0,0,0) 100%
   )
 }*/
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #000;
-}
-
-  .ma{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
+ .ma{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
   }
 
 
@@ -69,7 +61,7 @@ body {
     margin: 12;
     font-size: 25px;
     font-family: 'Bebas Neue', cursive;
-    color: #ffffff;
+    color: #000000;
     margin-left: 3px;
   }
 #Q2 {
